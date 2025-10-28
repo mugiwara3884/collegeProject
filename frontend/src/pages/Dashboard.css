@@ -1,0 +1,72 @@
+.dashboard-container {
+  flex: 1;
+  padding: 32px 24px;
+  background: #101112;
+  min-height: 100vh;
+}
+.dashboard-title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-start;
+}
+.dashboard-main-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #101112;
+}
+
+.dashboard-nav {
+  width: 260px;
+  background: #181a1b;
+  padding: 32px 20px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 0 24px 24px 0;
+  box-shadow: 2px 0 16px 0 rgba(0,0,0,0.10);
+}
+.nav-title {
+  background: #232526;
+  color: #b0ffb3;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  padding: 8px 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.nav-search {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #232526;
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.nav-section {
+  margin-bottom: 10px;
+}
+.nav-section-title {
+  color: #b0b3b8;
+  font-size: 0.98rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.nav-checkbox {
+  display: flex;
+  align-items: center;
+  color: #e0e0e0;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+  gap: 8px;
+}
